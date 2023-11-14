@@ -1,10 +1,14 @@
-title: \#FreeGEOS
-description: Technical documentation for \#FreeGEOS
+title: "#FreeGEOS"
+description: "Technical documentation for #FreeGEOS"
 theme: just-the-docs
 
-url: https://mgroeber9110.github.io/pcgeos
+url: https://mgroeber9110.github.io/just-the-docs-test
 
 aux_links:
-  Repository: https://github.com/mgroeber9110/pcgeos
+  Repository: https://github.com/mgroeber9110/just-the-docs-test
 
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/mgroeber9110/just-the-docs-test"
 gh_edit_source: TechDocs/Markdown
