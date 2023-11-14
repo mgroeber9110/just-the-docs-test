@@ -1,3 +1,8 @@
+---
+title: Home
+layout: home
+---
+
 ### #FreeGEOS technical documentation
 
 #FreeGEOS comes with extensive technical documentation that describes tools, programming languages and API calls from the perspective of an SDK user. This documentation can be found in the `TechDocs` folder and is available in Markdown format. Here are some entry points to the main volumes:
