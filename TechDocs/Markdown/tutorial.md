@@ -1,8 +1,3 @@
----
-layout: default
-title: Tutorial
----
-
 ### Tutorial
 
 **[1 Introduction](Tutorial/Introduction.md)**  
