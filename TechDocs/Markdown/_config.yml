@@ -1,4 +1,5 @@
 theme: just-the-docs
+url: https://mgroeber9110.github.io/just-the-docs-test
 
 aux_links:
   Repository: https://github.com/mgroeber9110/just-the-docs-test
@@ -19,3 +20,17 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-default-layout
+
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      # Turn off liquid rendering due to problems with {{...}} in code
+      render_with_liquid: false
+  -
+    scope:
+      path: "assets"
+    values:
+      # Turn liquid rendering back on for theme assets
+      render_with_liquid: true

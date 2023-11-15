@@ -314,8 +314,8 @@ this function the array should start with the first control point, and there
 should be 3n points passed.
 
 ![](Art/equation_24-1.png)  
-**Equation 24-1** Bézier Curve Equations  
-_Coordinates of the points of a Bézier curve can be expressed by parametric 
+**Equation 24-1** B�zier Curve Equations  
+_Coordinates of the points of a B�zier curve can be expressed by parametric 
 equations. The equation for both x and y is given in two forms here, one a 
 rearrangement of the other._
 
@@ -1270,7 +1270,7 @@ static HatchDash dash 2 = {
     {24, 0} };                            /* ...and Off for 24 points */
 
 static HatchLine line3 = {
-    { {12,0}, MakeWWFixed(0) },           /* Origin this line family will be at
+    {{12,0} , MakeWWFixed(0)},            /* Origin this line family will be at
                                            * a 12 pt. horizontal offset
                                            * from the other two families. */
     MakeWWFixed(0),                       /* Delta X */

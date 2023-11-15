@@ -1333,7 +1333,7 @@ concat, index, range.
 `proc <name> <args> <body>`
 
 **Examples:**  
-`proc poof { {arg1 one} args} {return [list $arg1 $args]}`  
+`proc poof {{arg1 one} args} {return [list $arg1 $args]}`  
  Defines a procedure poof that takes 0 or more arguments and 
 merges them into a list of two elements. If no argument is 
 given, the result will be the list {one {}}
@@ -2997,8 +2997,6 @@ symbol) command to find the address of the given variable `<addr>` of class `<va
 
 ----------
 
-{% raw %}
-
 **Swat Display 5-4 The Bytes Command**
 
 	1	var addr [get-address $addr ds:si]
@@ -3054,8 +3052,6 @@ symbol) command to find the address of the given variable `<addr>` of class `<va
 
 This example shows the code for the **bytes** commands. Notice the use of the **type** command on the 
 fifth line, and the **range** command on the twenty-ninth line.
-
-{% endraw %}
 
 ----------
 
