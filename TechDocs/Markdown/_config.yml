@@ -1,4 +1,3 @@
-description: "Technical documentation for #FreeGEOS"
 theme: just-the-docs
 
 url: https://mgroeber9110.github.io/just-the-docs-test
@@ -15,7 +14,7 @@ gh_edit_source: "TechDocs/Markdown"
 gh_edit_view_mode: "tree"
 
 # Jekyll plugins to simplify working with plain Markdown files
-# (copied from default gh-pages action)
+# (copied from default jekyll-build-pages action)
 plugins:
   - jekyll-github-metadata
   - jekyll-relative-links
