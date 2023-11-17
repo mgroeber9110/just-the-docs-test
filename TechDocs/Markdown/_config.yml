@@ -35,3 +35,67 @@ defaults:
     values:
       # Turn liquid rendering back on for theme assets
       render_with_liquid: true
+  -
+    scope:
+      path: ""
+    values:
+      has_children: true
+  -
+    scope:
+      path: "Asmref"
+    values:
+      parent: "Assembly Reference"
+      has_children: false
+  -
+    scope:
+      path: "Concepts"
+    values:
+      parent: "Concepts"
+      has_children: false
+  -
+    scope:
+      path: "Ddk"
+    values:
+      parent: "Driver Development"
+      has_children: false
+  -
+    scope:
+      path: "Esp"
+    values:
+      parent: "Esp"
+      has_children: false
+  -
+    scope:
+      path: "Objects"
+    values:
+      parent: "Objects"
+      has_children: false
+  -
+    scope:
+      path: "QuickRef"
+    values:
+      parent: "Quick Reference"
+      has_children: false
+  -
+    scope:
+      path: "Routines"
+    values:
+      parent: "Routines"
+      has_children: false
+  -
+    scope:
+      path: "Tools"
+    values:
+      parent: "Tools"
+      has_children: false
+  -
+    scope:
+      path: "Tutorial"
+    values:
+      parent: "Tutorial"
+      has_children: false
+  -
+    scope:
+      path: "index.md"
+    values:
+      has_children: false
