@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/mgroeber9110/jekyll-optional-front-matter.git
+  revision: b024a03353879193bcb1d4094263256a16943b6e
+  branch: 42-keep-pages-sorted-after-adding
+  specs:
+    jekyll-optional-front-matter (0.3.2)
+      jekyll (>= 3.0, < 5.0)
+
+GIT
   remote: https://github.com/mgroeber9110/just-the-docs.git
   revision: cc20e2b4d9e4a6d7f7aeafa15f1ac9bd7394b154
   branch: 1210-index-on-web-worker
@@ -58,8 +66,6 @@ GEM
       octokit (>= 4, < 7, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-optional-front-matter (0.3.2)
-      jekyll (>= 3.0, < 5.0)
     jekyll-relative-links (0.7.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -113,7 +119,7 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-default-layout
   jekyll-github-metadata
-  jekyll-optional-front-matter
+  jekyll-optional-front-matter!
   jekyll-relative-links
   jekyll-titles-from-headings
   just-the-docs!
