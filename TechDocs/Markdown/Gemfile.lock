@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/mgroeber9110/just-the-docs.git
-  revision: cc20e2b4d9e4a6d7f7aeafa15f1ac9bd7394b154
+  revision: cee67f5dd5aff4e1606764506adee0f359af1909
   branch: 1210-index-on-web-worker
   specs:
     just-the-docs (0.10.1)
