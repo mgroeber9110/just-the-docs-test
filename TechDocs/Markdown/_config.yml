@@ -1,5 +1,9 @@
 theme: just-the-docs
 
+title: "FreeGEOS docs playground"
+description: "Staging site for experiments with the online PC/GEOS documentation"
+footer_content: ""
+
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
@@ -7,6 +11,14 @@ gh_edit_repository: "https://github.com/mgroeber9110/just-the-docs-test"
 gh_edit_branch: "main"
 gh_edit_source: "TechDocs/Markdown"
 gh_edit_view_mode: "tree"
+
+nav_external_links:
+  - title: "FreeGEOS on GitHub"
+    url: https://github.com/bluewaysw/pcgeos
+
+aux_links:
+  "FreeGEOS on GitHub":
+    - "https://github.com/bluewaysw/pcgeos"
 
 # Jekyll plugins to simplify working with plain Markdown files
 # (copied from default jekyll-build-pages action)
@@ -34,6 +46,9 @@ search:
   preview_words_after: 3
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: "k"
+
+optional_front_matter:
+  remove_originals: true
 
 defaults:
   -
